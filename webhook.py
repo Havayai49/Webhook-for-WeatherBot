@@ -5,7 +5,7 @@ import requests
 from flask import Flask
 from flask import request
 from flask import make_response
-from pml import app
+from app import app
 
 # Flask app should start in global layout
 app = Flask(__name__)
