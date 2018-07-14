@@ -1,11 +1,10 @@
 import json 
-import os
+import os from app import app
 import requests
 
 from flask import Flask
 from flask import request
 from flask import make_response
-from app import app
 
 # Flask app should start in global layout
 app = Flask(__name__)
