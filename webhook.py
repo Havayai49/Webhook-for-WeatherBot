@@ -48,7 +48,7 @@ def makeResponse(req):
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     print("Starting app on port %d" % port)
-    app.run(debug=true, host='0.0.0.0')
+    app.run(debug='true', host='0.0.0.0')
 
 
 
