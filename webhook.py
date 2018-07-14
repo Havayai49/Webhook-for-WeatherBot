@@ -1,10 +1,11 @@
 import json 
-import os from pml impport app
+import os
 import requests
 
 from flask import Flask
 from flask import request
 from flask import make_response
+from pml import app
 
 # Flask app should start in global layout
 app = Flask(__name__)
